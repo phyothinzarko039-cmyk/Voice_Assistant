@@ -1,5 +1,5 @@
 
-FROM tomcat:11.0-jdk25
+FROM tomcat:11.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 
